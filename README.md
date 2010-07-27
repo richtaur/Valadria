@@ -1,8 +1,8 @@
 # Valadria
 
-Just a little DHTML RPG built on Diggy (http://github.com/lostdecade/diggy) made to work with Google App Engine.
+Just a little DHTML RPG built on [Diggy](http://github.com/lostdecade/diggy) made to work with Google App Engine.
 
-Live demo here: http://playvaladria.appspot.com/
+[Play the live demo.](http://playvaladria.appspot.com/)
 
 Supports:
 
