@@ -1,0 +1,21 @@
+application: playvaladria
+version: 10
+runtime: python
+api_version: 1
+
+handlers:
+- url: /favicon.ico
+  static_files: static/img/favicon.ico
+  expiration: "365d"
+  upload: static/img/favicon.ico
+- url: /img
+  static_dir: static/img
+  expiration: "365d"
+- url: /js
+  static_dir: static/js
+  expiration: "365d"
+- url: /swf
+  static_dir: static/swf
+  expiration: "365d"
+- url: /.*
+  script: main.py
